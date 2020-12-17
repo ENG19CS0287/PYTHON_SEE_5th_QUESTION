@@ -27,11 +27,3 @@ Program is given in debug_exam.py and Instructions are given in ReadMe file.
     # After processing all (k, v2) in
     # data2, return the dictionary
     return dupKeys
-  if k in data1:
-            v1 = data1[k]
-        if v1 != v2:
-            dupKeys[k] = [v1, v2]
-            del data1[k]
-        else:
-            data1[k] = v2
-    return dupKeys
